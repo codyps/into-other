@@ -1,3 +1,3 @@
-pub trait Into<T> {
-        fn into(self) -> T;
+pub trait IntoOther<T> {
+        fn into_other(self) -> T;
 }
